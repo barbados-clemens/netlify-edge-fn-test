@@ -1,0 +1,10 @@
+[build]
+  command = "echo No build for this site, we are living on the edge"
+  publish = "public"
+
+[dev]
+  framework = "#static"
+
+[[edge_functions]]
+  function = "transform"
+  path = "/"
